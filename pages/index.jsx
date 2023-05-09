@@ -34,14 +34,14 @@ export default function Home() {
           <div className="flex flex-wrap justify-center items-center gap-3 mt-12">
             <a
               target="_blank"
-              href=""
+              href="https://app.uniswap.org/#/swap?outputCurrency=0xb0E53Ff1558CC058FA3AFbbbCB7f727D4E274CE7"
               className="py-2 px-8 bg-[#F3C98F] rounded-full"
             >
               Buy $PSY
             </a>
             <a
               target="_blank"
-              href=""
+              href="https://www.dextools.io/app/en/ether/pair-explorer/0x786f1a2d8ddaf10738652cd9d39bffbb10c3c45c"
               className="py-2 px-12 bg-white rounded-full text-black"
             >
               Chart
