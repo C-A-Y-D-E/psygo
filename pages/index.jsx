@@ -48,10 +48,17 @@ export default function Home() {
             </a>
           </div>
           <div className="bg-[#F3C98F] mb-6 text-black font-text text-lg mx-auto mt-6 flex gap-4 rounded-full  items-center justify-center w-full max-w-[500px]   py-2 px-6">
-            <span className="-mb-1 md:inline-block hidden ">Coming Soon</span>
-            <span className="-mb-1  inline-block md:hidden">Coming soon</span>
-            {/* <span className="-mb-1 inline-block ">Coming Soon</span> */}
-            <CopyToClipboard text="coming soon" onCopy={() => alert("Copied")}>
+            <span className="-mb-1 md:inline-block hidden ">
+              0xb0E53Ff1558CC058FA3AFbbbCB7f727D4E274CE7
+            </span>
+            <span className="-mb-1  inline-block md:hidden">
+              0xb0E53F...274CE7
+            </span>
+            {/* <span className="-mb-1 inline-block ">0xb0E53Ff1558CC058FA3AFbbbCB7f727D4E274CE7</span> */}
+            <CopyToClipboard
+              text="0xb0E53Ff1558CC058FA3AFbbbCB7f727D4E274CE7"
+              onCopy={() => alert("Copied")}
+            >
               <button>
                 <svg
                   width="15"
